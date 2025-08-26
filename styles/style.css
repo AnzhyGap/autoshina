@@ -1,0 +1,173 @@
+@font-face {
+    font-family: "Inter";
+    src: url("../fonts/Inter-VariableFont_opsz,wght.ttf");
+    font-weight: 400; /*Regular*/
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Inter";
+    src: url("../fonts/Inter-VariableFont_opsz,wght.ttf");
+    font-weight: 500; /*Medium*/
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Inter";
+    src: url("../fonts/Inter-VariableFont_opsz,wght.ttf");
+    font-weight: 700; /*Bold*/
+    font-style: normal;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Inter", sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0;
+}
+
+:root {
+    --main-color-Black: #000000;
+    --main-color-White: #FFFFFF;
+    --main-color-Grey1: #263545;
+    --main-color-Grey2: #616A7B;
+    --main-color-Grey3: #8E95A3;
+    --main-color-Grey4: #E6E6E8;
+    --main-color-Blue: #2B44D2;
+    --main-color-Green: #7FB129;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: 600;
+}
+
+h1 {
+    font-size: 40px;
+    line-height: 46px;
+}
+
+h2 {
+    font-size: 24px;
+    line-height: 26px;
+}
+
+h3 {
+    font-size: 20px;
+    line-height: 26px;
+}
+
+h4 {
+    font-size: 18px;
+    line-height: 26px;
+}
+
+h5 {
+    font-size: 16px;
+    line-height: 20px;
+}
+
+h6 {
+    font-size: 12px;
+    line-height: 14px;
+}
+
+.h6_s {
+    font-size: 10px;
+    line-height: 12px;
+}
+
+.regular {
+    font-weight: 400;
+}
+
+.medium {
+    font-weight: 500;
+}
+
+.bold {
+    font-weight: 700;
+}
+
+.text_grey {
+    -webkit-text-fill-color: var(--main-color-Grey3);
+}
+
+.text_blue {
+    -webkit-text-fill-color: var(--main-color-Blue);
+}
+
+.wrapper {
+    max-width: 1409px;
+    margin: 0 auto;
+}
+
+a {
+    text-decoration: none;
+    /*-webkit-text-fill-color: var(--main-color-Black);*/
+}
+
+/**********************************************************/
+/************************* HEADER *************************/
+/**********************************************************/
+
+header .wrapper {
+    display: flex;
+    align-items: center;
+    padding: 16px 40px;
+}
+
+.logo {
+    padding-right: 160px;
+}
+
+
+.client_info {
+    display: flex;
+    column-gap: 60px;
+    padding-right: 100px;
+}
+
+.client_center {
+    display: flex;
+    flex-direction: column;
+    row-gap: 4px;
+    max-width: 128px;
+}
+
+.phones {
+    display: flex;
+    flex-direction: column;
+    padding-right: 56px;
+    gap: 6px;
+}
+
+.work_time {
+    display: flex;
+    flex-direction: column;
+    row-gap: 4px;
+    max-width: 155px;
+}
+
+.work_time_period {
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+}
+
+.a1, .mts, .fax {
+    display: flex;
+    column-gap: 16px;
+}
+
+.call_time {
+    -webkit-text-fill-color: var(--main-color-Grey3);
+}
+
+.user_active {
+    display: flex;
+    gap: 20px;
+    padding: 10px;
+}
